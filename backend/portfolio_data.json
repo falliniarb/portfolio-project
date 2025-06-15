@@ -1,0 +1,142 @@
+{
+    "nodes": [
+      { "id": "branch-prod", "label": "Product Leadership", "type": "branch" },
+      { "id": "branch-eng", "label": "Engineering & Data", "type": "branch" },
+      { "id": "branch-ent", "label": "Entrepreneurial Drive", "type": "branch" },
+      {
+        "id": "exp-morni",
+        "label": "Product Generalist @ Morni",
+        "type": "experience",
+        "primaryBranch": "branch-prod",
+        "details": {
+          "role": "Product Generalist",
+          "company": "Morni",
+          "duration": "May 2025 - Present",
+          "points": [
+            "Driving product development for a new immersive platform, collaborating directly with the Co-founder to shape vision and execution.",
+            "Generated critical documentation and refined workflows, ensuring clarity and efficiency across product functions.",
+            "Leveraged user insights and A/B testing to inform iterative product enhancements and optimize user experience."
+          ]
+        }
+      },
+      {
+        "id": "exp-l1",
+        "label": "Product Strategist @ L1 Blockchain",
+        "type": "experience",
+        "primaryBranch": "branch-prod",
+        "details": {
+          "role": "Product Strategist",
+          "company": "L1 Blockchain Ecosystem",
+          "duration": "Nov 2024 - Apr 2025",
+          "points": [
+            "Quickly immersed myself in the intricate landscape of an early-stage Layer 1 blockchain protocol.",
+            "Leveraged Generative AI and advanced prompting techniques to rapidly synthesize market trends and accelerate strategic decision-making.",
+            "Applied 'vibe coding' (rapid, iterative scripting) to build bespoke automation tools for streamlining repetitive tasks.",
+            "Proactively shaped and executed product discovery, community growth, and developer engagement strategies."
+          ]
+        }
+      },
+      {
+        "id": "exp-uniphil",
+        "label": "Product Associate Intern @ Uniphil",
+        "type": "experience",
+        "primaryBranch": "branch-eng",
+        "details": {
+          "role": "Intern - Product Associate",
+          "company": "Uniphil International",
+          "duration": "Feb 2024 - Sep 2024",
+          "points": [
+            "Demonstrated rapid adaptability by designing and implementing key performance indicators (KPIs) that directly aligned with strategic business goals.",
+            "Confidently collaborated directly with the CEO to architect and build a robust billing platform using Python, PostgreSQL, and REST APIs.",
+            "Championed agile product development cycles, ensuring on-time releases and maintaining continuous alignment with customer needs.",
+            "Proactively created interactive dashboards in Power BI for over 10 products."
+          ]
+        }
+      },
+      {
+        "id": "exp-epay",
+        "label": "Associate Intern @ EPAY",
+        "type": "experience",
+        "primaryBranch": "branch-eng",
+        "details": {
+          "role": "Associate Intern",
+          "company": "EPAY Systems",
+          "duration": "Sep 2023 - Dec 2023",
+          "points": [
+            "Quickly understood and coordinated with US stakeholders to design and implement an efficient ETL framework.",
+            "Confidently integrated benefit modules and RESTful APIs into the clientspace platform, enhancing interoperability for over 30 clients.",
+            "Initiated and developed automated workflows to streamline task execution and ensure timely updates."
+          ]
+        }
+      },
+      {
+        "id": "exp-primebook",
+        "label": "Product Marketing Intern @ Primebook",
+        "type": "experience",
+        "primaryBranch": "branch-prod",
+        "details": {
+          "role": "Product Marketing Intern",
+          "company": "Primebook India",
+          "duration": "Apr 2023 - May 2023",
+          "points": [
+            "Swiftly assimilated market dynamics and proactively drove cross-functional collaboration.",
+            "Leveraged comprehensive market research to develop compelling product positioning and messaging that directly contributed to strategic market penetration."
+          ]
+        }
+      },
+      {
+        "id": "exp-ibf",
+        "label": "President & Founder @ IBF BU",
+        "type": "experience",
+        "primaryBranch": "branch-ent",
+        "details": {
+          "role": "President | Founder",
+          "company": "IBF BU",
+          "duration": "Sep 2021 - May 2023",
+          "points": [
+            "Founded, scaled, and operated IBF BU, transforming it into one of the most active and recognized student-led Web3 communities in the country.",
+            "Drove significant community growth and ecosystem engagement by building multiple projects and organizing numerous hackathons.",
+            "Initiated and solidified strategic partnerships with multiple external organizations, including successful MOU signings."
+          ]
+        }
+      },
+      {
+        "id": "exp-codingclub",
+        "label": "Campus Ambassador @ Coding Club",
+        "type": "experience",
+        "primaryBranch": "branch-ent",
+        "details": {
+          "role": "Campus Ambassador",
+          "company": "Coding Club",
+          "duration": "Jan 2021 - Feb 2021",
+          "points": [
+            "Served as the sole on-campus representative, taking initiative to spearhead and lead significant growth for the community.",
+            "Successfully put the club 'on the map' within the university campus through targeted marketing and high-impact event organization."
+          ]
+        }
+      },
+      {
+        "id": "exp-msrf",
+        "label": "Digital Marketing Intern @ MSRF",
+        "type": "experience",
+        "primaryBranch": "branch-prod",
+        "details": {
+          "role": "Digital Marketing Intern",
+          "company": "Madras Scientific Research Foundation",
+          "duration": "Dec 2020 - Jan 2021",
+          "points": [
+            "Strategically designed and executed digital ad campaigns to boost product engagement.",
+            "Drove significant product sales and engagement on campus, leveraging effective communication and sales techniques.",
+            "Applied core SEO principles to enhance online visibility and contribute directly to outreach objectives."
+          ]
+        }
+      }
+    ],
+    "edges": [
+      { "source": "exp-uniphil", "target": "branch-prod", "label": "Fed Product Acumen" },
+      { "source": "exp-l1", "target": "branch-eng", "label": "Applied Eng Skills" },
+      { "source": "exp-epay", "target": "branch-prod", "label": "Informed Product Needs" },
+      { "source": "exp-primebook", "target": "branch-ent", "label": "Drove Business Growth" },
+      { "source": "exp-ibf", "target": "branch-prod", "label": "Managed Product Lifecycle" }
+    ]
+  }
